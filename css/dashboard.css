@@ -42,7 +42,7 @@ body{
     border: none;
     border-radius: 0;
     overflow-y: auto;
-    background-color: #313131;
+    background-color: #3f0aee;
     bottom: 0;
     overflow-x: hidden;
     padding-bottom: 40px;
@@ -57,7 +57,7 @@ body{
   }
   
   .navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form {
-    border-color: #616060 !important;
+    border-color: #0c0916 !important;
   }
   
   .navbar-ex1-collapse{
@@ -97,7 +97,7 @@ body{
     padding: 0px 12px;
     font-size: 14px;
     line-height: 1.42857143;
-    color: #555;
+    color: #0c0a13;
     background-color: #fff;
     background-image: none;
     border: 1px solid #ccc;

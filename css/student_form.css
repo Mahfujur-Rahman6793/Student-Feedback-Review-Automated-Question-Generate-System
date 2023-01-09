@@ -1,0 +1,8 @@
+.review{
+    display: flex;
+    font-size: 1.5rem;
+    justify-content: space-between;
+    margin:2% 5%;
+    padding: 5% 20%;
+    background-color: rgb(101, 206, 206);
+}
