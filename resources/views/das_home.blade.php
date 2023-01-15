@@ -21,17 +21,17 @@
   <!-- grid grid-cols-3 gap-4  -->
 
    <div class="home_top">
-            <div class="bg-red-400 p-8 rounded ">
-                <h3 class="text-3xl">Positive</h3>        
-                <h4 class="text-4xl"><i class="fa fa-bell-o" aria-hidden="true"></i> <span id="initial_deposite">00</span></h4>
+            <div class="first">
+                <h3 class="text-3xl font-size">Positive</h3>        
+                <h4 class="text-4xl font-size"><i class="fa fa-bell-o" aria-hidden="true"></i> <span id="initial_deposite">00</span></h4>
             </div>
-            <div class="bg-orange-400 p-8 rounded">
-                <h3 class="text-3xl">Average</h3>
-                <h4 class="text-4xl"><i class="fa fa-bell-o" aria-hidden="true"></i> <span id="initial_withdraw">00</span></h4>
+            <div class="second">
+                <h3 class="text-3xl font-size">Average</h3>
+                <h4 class="text-4xl font-size"><i class="fa fa-bell-o" aria-hidden="true"></i> <span id="initial_withdraw">00</span></h4>
             </div>
-            <div class="bg-lime-400 p-8 rounded">
-                <h3 class="text-3xl">Bad</h3>
-                <h4 class="text-4xl"><i class="fa fa-bell-o" aria-hidden="true"></i> <span id="initial_balance">400</span></h4>
+            <div class="third">
+                <h3 class="text-3xl font-size">Bad</h3>
+                <h4 class="text-4xl font-size"><i class="fa fa-bell-o" aria-hidden="true"></i> <span id="initial_balance">400</span></h4>
             </div>
             
     </div>
