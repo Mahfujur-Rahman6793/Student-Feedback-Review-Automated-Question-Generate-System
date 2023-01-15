@@ -1,3 +1,8 @@
+marquee{
+    color: rgb(9, 9, 143);
+    font-size: xx-large;
+    font-weight: 700;
+}
 .review{
     display: flex;
     font-size: 1.5rem;
@@ -11,12 +16,14 @@
 }
 .commit{
     margin-top: 1%;
+    width: 100%;
 }
 #comment{
     border: 1px solid rgb(121, 115, 115);
     margin-left: 5%;
     padding: 3%;
     border-radius: 10px;
+    background-color: blanchedalmond;
 }
 .submit{
     background-color: rgb(54, 143, 143);

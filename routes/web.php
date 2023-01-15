@@ -4,6 +4,7 @@ use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\DashboardController;
 
 use App\Http\Controllers\RegController;
+use App\Http\Controllers\feedback_formController;
 
 /*
 |--------------------------------------------------------------------------
@@ -26,7 +27,8 @@ Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name
 Route::get('/registration', [RegController::class, 'index']);
 Route::post('/registration-done', [RegController::class, 'store'])->name('reg');
 Route::group(['middleware' => ['auth']], function () { 
-    Route::get('/dashboard', [DashboardController::class, 'index']);
+Route::get('/dashboard', [DashboardController::class, 'index']);
+Route::get('/feedback', [feedback_formController::class, 'index'])->name('feedback');
    
     
 });

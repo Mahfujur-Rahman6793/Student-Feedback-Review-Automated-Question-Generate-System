@@ -21,21 +21,23 @@
       
                     <h2 class="fw-bold mb-2 text-uppercase">Login</h2>
                     <p class="text-white-50 mb-5">Please enter your login and password!</p>
-      
+                    <form method="POST" action="{{ route('login') }}">
+                        @csrf
                     <div class="form-outline form-white mb-4">
-                      <input type="email" id="typeEmailX" class="form-control form-control-lg" />
+                      <input type="email" id="typeEmailX" class="form-control form-control-lg" name=
+                      'email'/>
                       <label class="form-label" for="typeEmailX">Email</label>
                     </div>
       
                     <div class="form-outline form-white mb-4">
-                      <input type="password" id="typePasswordX" class="form-control form-control-lg" />
+                      <input type="password" id="typePasswordX" class="form-control form-control-lg" name="password" />
                       <label class="form-label" for="typePasswordX">Password</label>
                     </div>
       
                     <p class="small mb-5 pb-lg-2"><a class="text-white-50" href="#!">Forgot password?</a></p>
       
                     <button class="btn btn-outline-light btn-lg px-5" type="submit">Login</button>
-      
+</form>
                     <div class="d-flex justify-content-center text-center mt-4 pt-1">
                       <a href="#!" class="text-white"><i class="fab fa-facebook-f fa-lg"></i></a>
                       <a href="#!" class="text-white"><i class="fab fa-twitter fa-lg mx-4 px-2"></i></a>
@@ -58,3 +60,4 @@
       <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
 </body>
 </html>
+
