@@ -24,10 +24,10 @@
 
                     <label class="form-label select-label">Choose Your Role</label>
   
-                    <select class="select form-control-lg role">
+                    <select class="select form-control-lg role" name="role">
                       <option value="2">Admin</option>
                       <option value="3">Teacher</option>
-                      <option value="4">Student</option>
+                      <option value="4" id="student">Student</option>
                     </select>
                     
   
@@ -52,12 +52,24 @@
   
                   </div>
                 </div>
+
+                <!-- Role -->
+
+                <div class="col-md-12 mb-4">
   
+                    <div class="form-outline" id="roleN" style="">
+                      <input name="roleNo" type="text" id="role" class="form-control form-control-lg" />
+                      <label class="form-label" for="role">Roll No.</label>
+                    </div>
+  
+                  </div>
+
+                <!-- End Role section -->
                 <div class="row">
                   <div class="col-md-6 mb-4 d-flex align-items-center">
   
                     <div class="form-outline datepicker w-100">
-                      <input name="bday" type="text" class="form-control form-control-lg" id="birthdayDate" />
+                      <input name="bday" type="date" class="form-control form-control-lg" id="birthdayDate" />
                       <label for="birthdayDate" class="form-label">Birthday</label>
                     </div>
   
@@ -152,5 +164,6 @@
     </div>
   </section>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+  <script src="js/reg.js"></script>
 </body>
 </html>
