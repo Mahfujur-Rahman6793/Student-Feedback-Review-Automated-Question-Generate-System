@@ -21,7 +21,10 @@
 
     /* start the css */
     .gradient-custom{
-        background-image: linear-gradient(rgb(194, 187, 173),rgb(239, 159, 10),rgb(104, 97, 122));
+        /* background-image: linear-gradient(rgb(194, 187, 173),rgb(239, 159, 10),rgb(104, 97, 122)); */
+        background-image: url(../image/registration.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
         
     }
     .role{
